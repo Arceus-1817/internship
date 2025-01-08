@@ -2,21 +2,22 @@ package com.app.fruits;
 
 import java.util.Scanner;
 
-public class mango extends fruits{
-
-	public mango() {
-		super("Mango");
+public class orange extends fruits {
+	public orange() {
+		super("orange");
 		
 	}
 	
 	@Override
 	public String taste() {
-		return "sweet";
+		return "sour";
 	}
+
+	
 
 	@Override
 	public String toString() {
-		return "mango [color=" + color + ", weight=" + weight + ", name=" + name + ", isFresh=" + isFresh + "]";
+		return "orange [color=" + color + ", weight=" + weight + ", name=" + name + ", isFresh=" + isFresh + "]";
 	}
 
 	@Override
@@ -26,3 +27,4 @@ public class mango extends fruits{
 		
 	
 }
+
